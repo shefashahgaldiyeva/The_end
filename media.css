@@ -1,0 +1,419 @@
+@media screen and (max-width: 1024px) {
+    .container .jumbo h1 {
+        font-size: 100px;
+    }
+
+    .container .text span {
+        font-size: 14px;
+    }
+
+    .container .text {
+        margin-left: 60%;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .jumbo h1::before {
+        height: 7px;
+    }
+
+    .div1 .pink {
+        height: 60px;
+    }
+
+    .div1 span {
+        margin-left: -40px;
+        font-size: 30px;
+    }
+
+    .div2 {
+        padding: 0 100px;
+        height: 70vh;
+    }
+
+    .div2 .box span {
+        font-size: 12px;
+    }
+
+    .div2 .box a {
+        padding: 7px;
+        font-size: 14px;
+    }
+
+    .div3 {
+        margin-top: 60px;
+        padding: 0 80px;
+    }
+
+    .div3 h1 {
+        font-size: 30px;
+        padding-bottom: 12px;
+    }
+
+    .div3 .div {
+        border: 8px solid #f1b5b8;
+    }
+
+    .div3 a {
+        font-size: 20px;
+        border-bottom: 2px solid #f1b5b8;
+    }
+
+    .div6 {
+        padding: 65px;
+    }
+
+    .div6 p {
+        font-size: 20px;
+    }
+
+    .div6 h3 {
+        font-size: 22px;
+    }
+
+    .pinkbox h1 {
+        font-size: 38px;
+    }
+
+    .pinkbox input {
+        width: 200px;
+    }
+
+    .div4 .left h1 {
+        font-size: 40px;
+    }
+
+    .div4 .right .reqembox h1 {
+        font-size: 60px;
+    }
+
+    .div4 .right .reqembox span {
+        font-size: 13px;
+    }
+
+    .div5 .text h1 {
+        font-size: 35px;
+    }
+
+    .div5 .photos {
+        display: flex;
+        flex-flow: row wrap;
+        padding: 0 40px;
+    }
+
+    .div5 .photo {
+        width: 45%;
+    }
+
+    .div5 .photo p {
+        font-size: 13px;
+    }
+
+    .div5 .photos .photo .icon i {
+        font-size: 20px;
+    }
+
+    .div7 h1 {
+        font-size: 26px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container .jumbo h1 {
+        font-size: 60px;
+    }
+
+    .container .text span {
+        font-size: 10px;
+    }
+
+    .container .text {
+        margin-left: 50%;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .jumbo h1::before {
+        height: 5px;
+    }
+
+    .div1 .pink {
+        height: 40px;
+    }
+
+    .div1 span {
+        margin-left: -30px;
+        font-size: 20px;
+    }
+
+    .div2 {
+        padding: 0 50px;
+        height: 120vh;
+        flex-wrap: wrap;
+    }
+
+    .div2 .box {
+        width: 50%;
+        height: 70%;
+        padding: 15px;
+    }
+
+    .div2 .box img {
+        width: 100%;
+        height: 70%;
+    }
+
+    .div2 .box span {
+        font-size: 12px;
+    }
+
+    .div2 .box a {
+        width: 80px;
+        padding: 5px;
+        font-size: 11px;
+    }
+
+    .div3 {
+        margin-top: 220px;
+        padding: 0 60px;
+    }
+
+    .div3 h1 {
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+
+    .div3 .div {
+        border: 5px solid #f1b5b8;
+    }
+
+    .div3 a {
+        font-size: 15px;
+        border-bottom: 2px solid #f1b5b8;
+    }
+
+    .div6 {
+        padding: 50px;
+    }
+
+    .div6 p {
+        font-size: 18px;
+    }
+
+    .div6 h3 {
+        font-size: 20px;
+    }
+
+    .pinkbox h1 {
+        font-size: 33px;
+    }
+
+    .pinkbox input {
+        width: 140px;
+    }
+
+    .div4 .left h1 {
+        font-size: 35px;
+    }
+
+    .div4 .left span {
+        line-height: 1.4;
+    }
+
+    .div4 .right .reqembox h1 {
+        font-size: 50px;
+    }
+
+    .div4 .right .reqembox span {
+        font-size: 11px;
+    }
+
+    .div5 .text h1 {
+        font-size: 25px;
+    }
+
+    .div5 .text p {
+        line-height: 1.4;
+        font-size: 13px;
+    }
+
+    .div5 .photos {
+        display: flex;
+        flex-flow: row wrap;
+        padding: 0 30px;
+    }
+
+    .div5 .photo {
+        width: 45%;
+    }
+
+    .div5 .photo p {
+        font-size: 11px;
+    }
+
+    .div5 .photos .photo .icon i {
+        font-size: 17px;
+    }
+
+    .div7 h1 {
+        font-size: 20px;
+    }
+
+    .div7 a {
+        font-size: 10px;
+        padding: 12px 15px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .container .jumbo h1 {
+        font-size: 50px;
+    }
+
+    .container .text span {
+        font-size: 8px;
+    }
+
+    .container .text {
+        margin-left: 20%;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .jumbo h1::before {
+        height: 3px;
+    }
+
+    .div1 .pink {
+        height: 30px;
+    }
+
+    .div1 span {
+        margin-left: -20px;
+        font-size: 20px;
+    }
+
+    .div2 {
+        padding: 0 30px;
+        height: 120vh;
+        flex-wrap: wrap;
+    }
+
+    .div2 .box {
+        width: 60%;
+        height: 100%;
+        padding: 15px;
+    }
+
+    .div2 .box img {
+        width: 100%;
+        height: 70%;
+    }
+
+    .div2 .box span {
+        font-size: 14px;
+    }
+
+    .div2 .box a {
+        width: 100px;
+        padding: 8px;
+        font-size: 15px;
+    }
+
+    .div3 {
+        margin-top: 900px;
+        padding: 0 50px;
+    }
+
+    .div3 h1 {
+        font-size: 14px;
+        padding-bottom: 8px;
+    }
+
+    .div3 .div {
+        border: 3px solid #f1b5b8;
+    }
+
+    .div3 a {
+        font-size: 10px;
+        border-bottom: 1px solid #f1b5b8;
+    }
+
+    .div6 {
+        padding: 40px;
+    }
+
+    .div6 p {
+        font-size: 15px;
+    }
+
+    .div6 h3 {
+        font-size: 18px;
+    }
+
+    .pinkbox h1 {
+        font-size: 27px;
+    }
+
+    .pinkbox input {
+        width: 110px;
+        font-size: 12px;
+    }
+
+    .div4 .left h1 {
+        font-size: 30px;
+    }
+
+    .div4 .left span {
+        line-height: 1.2;
+    }
+
+    .div4 .right .reqembox h1 {
+        font-size: 40px;
+    }
+
+    .div4 .right .reqembox span {
+        font-size: 15px;
+    }
+
+    .div5 .text p {
+        line-height: 1.2;
+    }
+
+    .div5 .photos {
+        flex-wrap: wrap;
+        width: 80%;
+        margin-bottom: 200px;
+    }
+
+    .photo {
+        width: 40% !important;
+    }
+
+    .div5 .photo p {
+        font-size: 10px;
+    }
+
+    .div5 .photos .photo .icon i {
+        font-size: 14px;
+    }
+
+    .div6 {
+        padding-top: 60px;
+    }
+
+    .div7 h1 {
+        font-size: 17px;
+    }
+
+    .div7 a {
+        font-size: 8px;
+        padding: 10px 12px;
+    }
+}
